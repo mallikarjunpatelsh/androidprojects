@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_trans">#1fffffff</color>
+    <color name="hintColor">#CFA29D9D</color>
+    <color name="labelColor">#CFF1EEEE</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+</resources>

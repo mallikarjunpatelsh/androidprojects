@@ -1,0 +1,39 @@
+{
+  "logo-url": "https://demo.ezetap.com/portal/images/logo.gif",
+  "heading-text": "Ezetap Android Assignment",
+  "uidata": [{
+    "uitype": "label",
+    "value": "Your Name",
+    "key": "label_name"
+  },
+    {
+      "uitype": "edittext",
+      "key": "text_name",
+      "hint": "Enter your name"
+    },
+    {
+      "uitype": "label",
+      "value": "Your Phone",
+      "key": "label_phone"
+    },
+    {
+      "uitype": "edittext",
+      "key": "text_phone",
+      "hint": "Enter your phone no"
+    },
+    {
+      "uitype": "label",
+      "value": "Your City",
+      "key": "label_city"
+    },
+    {
+      "uitype": "edittext",
+      "key": "text_city",
+      "hint": "Enter your city"
+    },
+    {
+      "uitype": "button",
+      "value": "Submit"
+    }
+  ]
+}
