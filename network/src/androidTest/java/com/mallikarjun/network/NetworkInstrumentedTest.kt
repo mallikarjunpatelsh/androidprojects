@@ -2,7 +2,6 @@ package com.mallikarjun.network
 
 import android.content.Context
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
 import org.json.JSONObject
 import org.junit.Before
@@ -12,7 +11,6 @@ import java.io.InputStream
 import java.util.*
 
 @RunWith(AndroidJUnit4::class)
-@SmallTest
 internal class NetworkInstrumentedTest {
     private lateinit var testNetworkCallImpl:INetworkCall
     private lateinit var instrumentationContext: Context
@@ -32,6 +30,7 @@ internal class NetworkInstrumentedTest {
          val expectedJson: JSONObject? =JSONObject(testJsonScanned)
         val apiCallJson : JSONObject? = testNetworkCallImpl.fetchCustomUI("https://demo.ezetap.com/mobileapps/android_assignment.json")
 
+        com.google.common.truth.Truth.assertThat(apiCallJson).equals(expectedJson)
 
     }
 }
