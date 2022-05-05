@@ -1,6 +1,6 @@
 # androidprojects
 
-* This project is handled with both dark and night mode
+* This project is handled in both dark and night mode
 * Using OKHttp client for Api Call
 * Customized actionBar
 ![Screenshot_1651724982](https://user-images.githubusercontent.com/50802962/166863869-a1389538-c9ec-4a6e-8796-94d561d49f1d.png)
