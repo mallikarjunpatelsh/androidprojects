@@ -36,6 +36,7 @@ class DisplayActivity : AppCompatActivity() {
         if (uiDataModel != null) {
             actionBar?.setDisplayHomeAsUpEnabled(true)
             actionBar?.setHomeButtonEnabled(true)
+            actionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_24)
             headingTextView?.text = uiDataModel.headingText
             val bitmap : Bitmap? = intent?.extras?.getParcelable("logo")
             if(bitmap  != null) {

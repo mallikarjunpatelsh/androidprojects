@@ -10,7 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ezetap_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EzyTapAssignment">
+        android:theme="@style/Theme.EzyTapAssignment"
+        tools:replace="android:allowBackup"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:node="replace">
         <activity
             android:name=".DisplayActivity"
             android:exported="false" />
